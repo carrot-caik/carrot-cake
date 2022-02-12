@@ -1,0 +1,75 @@
+body {
+    margin:auto;
+    background-color: black;
+    /*background-image: url('../images/orange-pattern1.jpg');*/
+    background-image: url('../images/pink-pattern1.jpg');
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-align: center;
+    color:coral;
+    font-family: Snell Roundhand, cursive;
+}
+
+h2 {
+    margin-top: 15px;
+    margin-bottom: 0;
+    font-size:36px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    margin:0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    text-align: center;
+}
+
+div.main {
+    margin:auto;
+    margin-top: 100px;
+    margin-bottom:100px;
+
+    background-color: white;
+
+    width:50%;
+    padding:30px;
+
+    /*
+    background-color: #8ebf42;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    line-height: 30px;
+    */
+}
+
+div.img-wrapper {
+    margin:0;
+    text-align: center;
+}
+
+img.carrot-cake {
+    width: 20%;
+    height:auto;
+}
+
+img.british-shorthair {
+    width:20%;
+    height:auto;
+}
+img.ragdoll {
+    width:30.5%;
+    height:auto;
+}
